@@ -1,0 +1,233 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Ussama Rehman} \\ \vspace{1pt}
+    \small 
+    +92-343-5948527 $|$ 
+    \href{mailto:ussama.rehman8466@gmail.com}{\underline{ussama.rehman8466@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/ussama-rehman-5b468725a}{\underline{linkedin.com/in/ussamaRehman}} \\ 
+    \vspace{1.5pt}
+    \href{https://github.com/ussamaRehman}{\underline{github.com/ussamaRehman}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Engineering and Technology}{Taxila, PK}
+      {Bachelor of Science in Software Engineering}{Oct. 2015 -- Aug. 2019}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Lecturer, Computer Science}{Feb. 2023 -- Present}
+      {Higher Education Department}{Punjab, PK}
+      \resumeItemListStart
+        \resumeItem{Delivered Undergraduate-level instruction in programming and software development.}
+        \resumeItem{Designed assignments, quizzes, and labs tailored to national curriculum standards.}
+        \resumeItem{Mentored students in academic projects and technical skill development.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Freelance Python Developer}{Dec. 2024 -- Present}
+      {Freelance Platforms/Communities}{Remote}
+      \resumeItemListStart
+        \resumeItem{Completed multiple online machine learning projects.}
+        \resumeItem{Implemented regression and classification algorithms using Python, NumPy, and scikit-learn.}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+        {\textbf{House Price Prediction} $|$ \emph{Python, scikit-learn, Pandas, Jupyter}}{Aug. 2025}
+        \resumeItemListStart
+          \resumeItem{Trained and evaluated multiple linear regression models to predict house prices using the Kaggle dataset.}
+          \resumeItem{Applied feature scaling, one-hot encoding, and regularization techniques (Ridge, Lasso).}
+          \resumeItem{Visualized model performance using residual plots and feature importance charts.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{Email Spam Classifier} $|$ \emph{Python, scikit-learn, NLTK, Jupyter}}{Sep. 2025}
+        \resumeItemListStart
+          \resumeItem{Built a spam detection model using logistic regression and Naive Bayes classifiers.}
+          \resumeItem{Preprocessed email text data with tokenization, stopword removal, and TF-IDF vectorization.}
+          \resumeItem{Evaluated model performance using precision, recall, and confusion matrix visualizations.}
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------Certifications-----------
+\section{Certifications}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Machine Learning Specialization}{July 2025 -- Sep. 2025}
+      {Stanford University via Coursera}{Online}
+      \resumeItemListStart
+        \resumeItem{Completed Machine Learning Specialization by Andrew Ng.}
+        \resumeItem{Practiced core ML algorithms and techniques using Python, NumPy, scikit-learn, and Jupyter Notebooks.}
+        \resumeItem{Applied Learning to personal projects involving model training and evaluation.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Deep Learning Specialization}{July 2025 -- Sep. 2025}
+      {DeepLearning.AI via Coursera}{Online}
+      \resumeItemListStart
+        \resumeItem{Studied neural networks, CNNs, RNNs, and techniques for tuning deep learning models.
+}
+        \resumeItem{Built and trained deep learning models using Python and TensorFlow in hands-on labs.
+}
+        \resumeItem{Applied deep learning techniques to computer vision and sequential data tasks.
+
+}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++, JavaScript, HTML/CSS} \\ 
+     \textbf{Developer Tools}{: Git, VS Code} \\
+     \textbf{Platforms}{: Coursera, LeetCode, Kaggle} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, TensorFlow, scikit-learn}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
