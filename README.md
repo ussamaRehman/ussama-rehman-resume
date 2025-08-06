@@ -9,7 +9,7 @@ This repository contains the LaTeX source (`.tex`) and compiled PDF of my academ
 
 ## 📌 About Me
 
-I am a Computer Science Lecturer and aspiring Machine Learning practitioner. My resume highlights my academic background, certifications, and self-directed ML projects.
+I am a Machine Learning Engineer. My resume highlights my academic background, certifications, and self-directed ML projects.
 
 ## 📫 Contact
 
